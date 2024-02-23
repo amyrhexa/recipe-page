@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+}
+body main {
+  margin: 0 auto;
+  max-width: 375px;
+}
+@media screen and (min-width: 780px) {
+  body main {
+    margin: 5% auto;
+    max-width: 750px;
+  }
+}
+body main section {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  width: 100%;
+}
+body main section img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+@media screen and (min-width: 780px) {
+  body main section img {
+    width: 94%;
+    margin: 3%;
+    margin-bottom: 0;
+    border-radius: 0.5rem;
+  }
+}
+body main section .container {
+  padding: 2.7rem;
+}
+body main section .container hr {
+  border: 1px solid hsl(30, 18%, 87%);
+}
+body main section .container h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 1rem;
+}
+body main section .container h2 {
+  font-size: 1.7rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 1rem -1rem 0;
+}
+body main section .container p {
+  font-size: 1rem;
+}
+body main section .container li {
+  margin-top: 0.6rem;
+}
+body main section .container li::marker {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body main section .container .prep {
+  background: rgba(255, 0, 119, 0.115);
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem 3rem;
+  margin: 1.5rem 0;
+}
+body main section .container .prep::marker {
+  color: hsl(332, 51%, 32%);
+}
+body main section .container .prep h3 {
+  color: hsl(332, 51%, 32%);
+  margin: 0 -1rem 0.5rem;
+}
+body main section .container .ingre {
+  margin-bottom: 1rem;
+}
+body main section .container .inst {
+  margin-bottom: 1rem;
+}
+body main section .container .nut h2 {
+  margin-bottom: 1rem;
+}
+body main section .container .nut p {
+  margin-left: -1.2rem;
+}
+body main section .container .nut div {
+  border-bottom: 3px solid hsl(30, 18%, 87%);
+  padding: 0.5rem 40% 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+body main section .container .nut div span:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  padding-left: 3rem;
+}/*# sourceMappingURL=style.css.map */
